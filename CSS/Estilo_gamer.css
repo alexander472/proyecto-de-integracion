@@ -1,0 +1,31 @@
+body {
+  background-image: url('fondo_gamer.jpg');
+  background-repeat: no-repeat;
+  background-size: 1300PX 800PX;
+}
+h1 {
+  background-color:mnlightblue;
+  }
+  
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: transLateX(cat((100% - 100vw) / 2));
+  z-index: -2;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 3rem;
+  padding-left: 2rem
+}
+
+h2 {
+  margin: 0;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
